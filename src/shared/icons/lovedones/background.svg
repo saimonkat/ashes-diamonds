@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7425px" height="1682px" viewBox="0 0 7425 1682" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 7</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.9332715%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.9332715%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(2993, 152)">
+            <g id="hero_bg" transform="translate(-2992.5, -152)">
+                <g id="Group-7" transform="translate(0, -0)">
+                    <path d="M4535.71502,1674 C4535.71502,1223.88793 4170.82709,859 3720.71502,859 C3270.60295,859 2905.71502,1223.88793 2905.71502,1674" id="Path" stroke="#FFFFFF" opacity="0.369623729"></path>
+                    <polyline id="Path" stroke="url(#linearGradient-1)" opacity="0.699519748" transform="translate(3712, 840.5) rotate(-180) translate(-3712, -840.5)" points="2463 1681 3712 4.54747351e-13 4961 1681"></polyline>
+                    <polyline id="Path" stroke="url(#linearGradient-2)" opacity="0.699519748" transform="translate(3712, 916.5) rotate(-180) translate(-3712, -916.5)" points="0 1681 3712 152 7424 1681"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,156 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.home {
+  position: relative;
+  padding-top: 170px;
+  padding-bottom: 120px;
+  text-align: center;
+  overflow: visible;
+
+  @include media-down(md) {
+    padding-top: 38px;
+    padding-bottom: 0px;
+    margin-bottom: 48px;
+  }
+}
+
+.backgroundLines {
+  display: none;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: -2;
+
+  @include media-down(md) {
+    display: block;
+    height: 824px;
+    bottom: 77px;
+  }
+}
+
+.fadeLeft {
+  position: absolute;
+  right: -30px;
+  z-index: -5;
+  top: 0px;
+  filter: blur(37px);
+
+  @include media-down(md) {
+    top: 527px;
+    height: 330px;
+    width: 600px;
+  }
+}
+
+.fadeRight {
+  position: absolute;
+  left: 0;
+  top: 357px;
+
+  @include media-down(md) {
+    top: 496px;
+    width: 524px;
+    left: -138px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    color: $c_blue;
+    font-family: $creattion;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 9px;
+
+    @include media-down(md) {
+      opacity: 1;
+      color: $c_blue;
+      font-family: $travel;
+      opacity: 1;
+      font-size: 48px;
+      font-weight: 400;
+      letter-spacing: 0px;
+    }
+  }
+
+  h1 {
+    font-family: $instrument;
+    font-size: 154px;
+    font-weight: 400;
+    line-height: 140px;
+    padding-bottom: 8px;
+
+    @include media-down(md) {
+      color: $c_white;
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 69px;
+      padding-bottom: 0;
+    }
+
+    @include media-down(xs) {
+      font-size: 60px;
+    }
+  }
+}
+
+.shperePink {
+  position: absolute;
+  right: -77px;
+  z-index: -1;
+  top: 0px;
+
+  @include media-down(md) {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.shpereBlue {
+  position: absolute;
+  z-index: -2;
+  width: 500px;
+  height: 500px;
+  left: -160px;
+
+  @include media-down(md) {
+    width: 338px;
+    height: 338px;
+    top: 66px;
+    left: -249px;
+  }
+}
+
+.shpereBlueSecond {
+  position: absolute;
+  z-index: -5;
+  top: 771px;
+  width: 180px;
+  right: 100px;
+
+  @include media-down(md) {
+    width: 110px;
+    height: 110px;
+    top: 587px;
+    right: -26px;
+  }
+}
+
+.fadeRightSecond {
+  position: absolute;
+  right: 0;
+  top: 13px;
+
+  @include media-down(md) {
+    width: 100%;
+    height: 590px;
+    top: 134px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../../app/scss/utils/variables";
+@import "../../../app/scss/utils/mixins";
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 4px;
+    cursor: pointer;
+    padding: 10px;
+
+    span{
+        height: 2px;
+        width: 16px;
+        background-color: $c_white;
+        opacity: 0.7;
+    }
+
+    @include media-down(md) {
+        margin-top: -10px;
+    }
+
+}
+
+
+.open {
+
+}

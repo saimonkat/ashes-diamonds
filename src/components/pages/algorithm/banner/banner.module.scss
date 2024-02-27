@@ -1,0 +1,38 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.banner {
+  padding: 80px 0;
+
+  @include media-down(md) {
+    padding: 30px 0 40px;
+  }
+}
+
+.head {
+  p {
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 30px;
+    max-width: 622px;
+    margin-bottom: 0;
+    padding: 0;
+    
+    @include media-down(md) {
+      text-align: center;
+    }
+  }
+}
+
+.title {
+  @include media-down(md) {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 48px;
+    opacity: 1;
+    line-height: 69px;
+  }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="174px" height="153px" viewBox="0 0 174 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/benefits/bright</title>
+    <defs>
+        <linearGradient x1="50.0048058%" y1="-18.7016655%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="-4.39327036%" x2="50%" y2="89.5865733%" id="linearGradient-2">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="18.2703989%" x2="50%" y2="73.0923085%" id="linearGradient-3">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="3.77065537%" x2="50%" y2="83.6449956%" id="linearGradient-4">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="30.3191728%" x2="50%" y2="64.3233989%" id="linearGradient-5">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="-9.57259753%" x2="50%" y2="93.3560068%" id="linearGradient-6">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="-4.39236136%" x2="50%" y2="89.5859117%" id="linearGradient-7">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="3.77142795%" x2="50%" y2="83.6444333%" id="linearGradient-8">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="30.3201132%" x2="50%" y2="64.3227145%" id="linearGradient-9">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="-2.06020921%" x2="50%" y2="87.8886078%" id="linearGradient-10">
+            <stop stop-color="#5F298A" offset="0%"></stop>
+            <stop stop-color="#9853BE" offset="56.7157985%"></stop>
+            <stop stop-color="#5F298A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon/benefits/bright" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-24" transform="translate(18, 30)" stroke-width="2">
+            <g id="Group-23">
+                <line x1="69.5" y1="20.4998841" x2="69.5" y2="121.499884" id="Line" stroke="url(#linearGradient-1)"></line>
+                <polyline id="Stroke-3" stroke="url(#linearGradient-2)" points="69.4997096 88.4525294 14.7687246 56.4793541 0 26.6121789"></polyline>
+                <polyline id="Stroke-6" stroke="url(#linearGradient-3)" points="69.4997096 38.6742326 14.7687246 56.4792961 14.0015709 76.3903598"></polyline>
+                <polyline id="Stroke-7" stroke="url(#linearGradient-4)" points="69.4997096 38.6742326 29 0.999884063 14.7687246 56.4792961 0 58.0108272"></polyline>
+                <line x1="45.1932497" y1="101.46208" x2="69.4994193" y2="88.4527613" id="Stroke-9" stroke="url(#linearGradient-5)"></line>
+                <line x1="28.5787103" y1="0" x2="5.80737078e-05" y2="26.6122368" id="Stroke-10" stroke="url(#linearGradient-6)"></line>
+                <polyline id="Stroke-14" stroke="url(#linearGradient-7)" points="69.4997096 88.4525294 124.231275 56.4793541 139 26.6121789"></polyline>
+                <polyline id="Stroke-17" stroke="url(#linearGradient-3)" points="69.4997096 38.6742326 124.231275 56.4792961 124.997848 76.3903598"></polyline>
+                <polyline id="Stroke-18" stroke="url(#linearGradient-8)" points="69.4997096 38.6742326 110 0.999884063 124.231275 56.4792961 139 58.0108272"></polyline>
+                <line x1="93.8067503" y1="101.46208" x2="69.5" y2="88.4527613" id="Stroke-20" stroke="url(#linearGradient-9)"></line>
+                <line x1="110.42129" y1="0" x2="138.999942" y2="26.6122368" id="Stroke-21" stroke="url(#linearGradient-6)"></line>
+                <path d="M14.0015709,76.3907076 L0,58.011175 L0,26.6124687 L7.86376075,7.27529444 L28.5786523,0.000231874504 L57.7322343,9.18999816 L69.4997096,20.2938885 L81.267185,9.18999816 L110.421348,0.000231874504 L131.136239,7.27529444 L139,26.6124687 L139,58.011175 L124.997848,76.3907076 L69.4997096,120.999884 L14.0015709,76.3907076 Z" id="Combined-Shape" stroke="url(#linearGradient-10)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

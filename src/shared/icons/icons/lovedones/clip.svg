@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="134px" viewBox="0 0 40 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/clip</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lovedones" transform="translate(-280, -2003)" stroke="#11A4BC" stroke-width="3">
+            <g id="review" transform="translate(232.534, 2003)">
+                <g id="Image-2" transform="translate(43.9728, 0)">
+                    <path d="M5.49319803,51 L12.957043,119.003921 C13.8060791,126.739583 20.7553692,132.329053 28.493198,131.5 C36.2582269,130.668033 41.9168186,123.755889 41.198996,115.979478 L31.6567734,12.6053993 C31.0555879,6.09255678 25.2885287,1.30021183 18.7756862,1.9013973 C18.5138344,1.92556823 18.2528603,1.95845403 17.993198,2 C10.9465936,3.12745671 5.96484786,9.50258132 6.57429013,16.6127412 L8.49319803,39 L8.49319803,39" id="icon/clip"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

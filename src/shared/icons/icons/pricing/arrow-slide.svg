@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/arrow-slide</title>
+    <g id="icon/arrow-slide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="16.1716 10.9999 10.8076 5.63589 12.2218 4.22168 20 11.9999 12.2218 19.778 10.8076 18.3638 16.1716 12.9999 4 12.9999 4 10.9999"></polygon>
+    </g>
+</svg>

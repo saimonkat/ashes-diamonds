@@ -1,0 +1,271 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  flex-grow: 1;
+  min-height: 60vh;
+}
+
+.banner {
+  padding-top: 80px;
+  padding-bottom: 75px;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+
+  ul li {
+    position: relative;
+    box-sizing: border-box;
+    margin-inline-start: 20px;
+    // list-style: disc;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+      border: 1px solid $c_blue;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: -14.5px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 5px;
+      height: 5px;
+      background-color: $c_white;
+      border-radius: 50%;
+    }
+  }
+
+  ol {
+    counter-reset: my-counter;
+    list-style-type: none;
+  }
+
+  ol li {
+    margin-inline-start: 20px;
+    position: relative;
+
+    &::before {
+      content: counter(my-counter) ".";
+      font-weight: 700;
+      counter-increment: my-counter;
+      position: absolute;
+      left: -16px;
+      color: $c_blue;
+    }
+  }
+
+  a[href^="mailto:"] {
+    color: $c_blue;
+    transition: 0.1s;
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      path {
+        fill: $c_blue;
+      }
+      margin-bottom: -4px;
+    }
+
+    &:hover {
+    color: $c_white;
+
+      path {
+        fill: $c_white;
+      }
+    }
+  }
+
+  a[href^="tel:"] {
+    color: $c_blue;
+    transition: 0.1s;
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      margin-bottom: -4px;
+      path {
+        fill: transparent;
+        stroke: $c_blue;
+
+      }
+    }
+
+    &:hover {
+      color: $c_white;
+      path {
+        stroke: $c_white;
+      }
+    }
+  }
+
+}
+
+.head {
+  section {
+    margin-bottom: 72px;
+  }
+}
+
+
+.title {
+  font-size: 96px;
+  line-height: 1;
+  font-family: $instrument;
+
+  @include media-down(md) {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.subtitle {
+  font-size: 60px;
+  line-height: 1;
+  font-family: $instrument;
+
+  @include media-down(md) {
+    font-size: 48px;
+    margin-bottom: 2rem;
+  }
+}
+
+.textContent {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: revert;
+    font-weight: 400;
+    line-height: revert;
+    font-family: $instrument;
+  }
+
+  h1 {
+    font-size: 96px;
+    line-height: 1;
+    margin-bottom: 48px;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 48px;
+  }
+
+  h3 {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 38px;
+  }
+
+  h4 {
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 26px;
+  }
+
+  h5 {
+    font-size: 28px;
+    line-height: 1;
+    margin-bottom: 28px;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 23px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 32px;
+  }
+
+  a {
+    font-weight: 700;
+    color: $c_white;
+    cursor: pointer;
+    line-height: 18px;
+
+    &:hover {
+      color: $c_blue;
+    }
+  }
+
+}
+
+.link {
+  font-weight: 700;
+  color: $c_white;
+  margin: 0 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  line-height: 18px;
+
+  .imgWrapper {
+    display: inline-flex;
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+  }
+
+  @include media-down(md) {
+    //display: flex;
+  }
+}
+
+
+.fadeLeft {
+  position: absolute;
+  right: 0px;
+  bottom: -40%;
+  z-index: -5;
+  filter: blur(37px);
+  width: 60%;
+
+  @include media-down(md) {
+    top: 70%;
+    width: 100%;
+  }
+}
+
+.fadeRightSecond {
+  position: absolute;
+  width: 20%;
+
+  right: 0;
+  bottom: -45%;
+
+  @include media-down(md) {
+    width: 50%;
+    top: 75%;
+  }
+}

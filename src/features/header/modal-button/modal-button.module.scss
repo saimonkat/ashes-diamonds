@@ -1,0 +1,19 @@
+@import "../../../app/scss/utils/variables";
+@import "../../../app/scss/utils/mixins";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 48px 20px 90px;
+  color: $c_white;
+  font-family: $poppins;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 2px solid $c_white;
+  opacity: 0.7;
+  background-color: unset;
+}

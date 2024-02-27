@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="95px" viewBox="0 0 189 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="how-it-works-_wide" transform="translate(-671, -507)" stroke="#FFFFFF" stroke-width="2">
+            <g id="roadmap" transform="translate(599, 508)">
+                <g id="arrow" transform="translate(166.0033, 45.9967) scale(1, -1) translate(-166.0033, -45.9967)translate(73, 0)">
+                    <path d="M171.34095,16.0390273 C166.265934,58.8204704 129.981203,91.993353 85.9739045,91.993353 C38.4918282,91.993353 0,53.3750481 0,5.73695483" id="Path" stroke-dasharray="0,21"></path>
+                    <polyline id="Path" transform="translate(172.2286, 8.2673) rotate(8) translate(-172.2286, -8.2673)" points="159.231693 14.7773912 172.22269 1.74534567 185.225458 14.7891616"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

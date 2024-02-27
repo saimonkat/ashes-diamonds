@@ -1,0 +1,35 @@
+{
+  "name": "ashes-diamonds-next",
+  "plugins": [
+    {
+      "name": "Ant Design",
+      "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
+      "url": "https://ant.design/docs/react/introduce"
+    },
+    {
+      "name": "SASS/SCSS",
+      "description": "Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax.",
+      "url": "https://sass-lang.com/documentation"
+    },
+    {
+      "name": "Axios",
+      "description": "Promise based HTTP client for the browser and node.js.",
+      "url": "https://github.com/axios/axios"
+    },
+    {
+      "name": "SVGR",
+      "description": "Transform SVGs into React components.",
+      "url": "https://react-svgr.com/docs/getting-started/"
+    },
+    {
+      "name": "MobX",
+      "description": "MobX is unopinionated and allows you to manage your application state outside of any UI framework.",
+      "url": "https://mobx.js.org/README.html"
+    },
+    {
+      "name": "ESLint",
+      "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.",
+      "url": "https://eslint.org/docs/user-guide/getting-started"
+    }
+  ]
+}

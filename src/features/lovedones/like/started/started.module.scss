@@ -1,0 +1,22 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 68px;
+  color: $c_black !important;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  opacity: 1 !important;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 28px;
+  background-color: $c_white !important;
+
+  @include media-down(sm){
+    width: 100%;
+  }
+}

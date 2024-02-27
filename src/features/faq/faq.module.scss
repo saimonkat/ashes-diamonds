@@ -1,0 +1,141 @@
+@import "../../app/scss/utils/variables";
+@import "../../app/scss/utils/mixins";
+
+.wrapper {
+  padding-top: 120px;
+  padding-bottom: 180px;
+
+  h2 {
+    margin: 0;
+  }
+
+  @include media-down(md) {
+    padding-bottom: 128px;
+    padding-top: 0px;
+  }
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  padding-top: 106px;
+  width: 100%;
+
+  @include media-down(md) {
+    padding-top: 25px;
+  }
+
+  & li {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+
+      @include media-down(md) {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: rgba(34, 39, 41, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+    width: 100%;
+    padding: 32px 0px;
+    border: 1px solid transparent;
+    transition: 0.24s;
+    color: $c_white;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 33px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+    &.active {
+      border-bottom: 0px solid rgba(255, 255, 255, 0);
+
+      .arrow {
+        opacity: 0;
+      }
+    }
+
+    @include media-down(md) {
+      padding-right: 50px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+  .content {
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    max-height: 0;
+
+    .text {
+      color: $c_white;
+      opacity: 0.8;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 30px;
+      transform: translateY(10px);
+      transition: 0.25s;
+    }
+
+    &.active {
+
+  /*     max-height: 500px !important; */
+
+      .text {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+  }
+
+  .text {
+    position: relative;
+    transition: 0.24s;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 30px;
+    transform: translateY(10px);
+    transition: 0.55s;
+  }
+
+  .arrow {
+    position: absolute;
+    right: 0px;
+    transition: 0.24s;
+    top: 50%;
+    transform: translate(0px, -50%);
+
+    @include media-down(sm) {
+      right: 10px;
+    }
+  }
+
+  .arrowMinus {
+    position: absolute;
+    right: 0px;
+    transition: 0.24s;
+    top: 50%;
+    transform: translate(0px, -50%);
+
+    @include media-down(sm) {
+      right: 10px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.contacts {
+  padding-top: 20px;
+  padding-bottom: 200px;
+  position: relative;
+
+  @include media-down(md) {
+    padding-bottom: 88px;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  @include media-down(md) {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  a {
+    &:nth-child(1) {
+      color: $c_white;
+    }
+    &:nth-child(2) {
+      color: #00e0ff;
+    }
+  }
+}
+
+.label {
+  font-family: $instrument;
+  font-size: 40px;
+  line-height: 40px;
+  color: $c_white;
+}
+
+.value {
+  color: $c_blue;
+  font-family: $instrument;
+  font-size: 40px;
+  line-height: 40px;
+  font-style: italic;
+}

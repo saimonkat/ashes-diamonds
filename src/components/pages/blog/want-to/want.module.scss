@@ -1,0 +1,173 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.want {
+  position: relative;
+  padding-top: 143px;
+  padding-bottom: 142px;
+
+  @include media-down(md) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.background {
+  position: absolute;
+  width: 50%;
+  height: 727px;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(0deg,
+      rgba(33, 36, 94, 0) 0%,
+      rgba(33, 36, 94, 1) 100%);
+
+  @include media-down(md) {
+    display: none;
+  }
+}
+
+.wrapper {
+  //margin-top: 144px;
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+
+  @include media-down(md) {
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  &:nth-child(1) {
+    margin-bottom: 72px;
+
+    @include media-down(md) {
+      padding-right: 0px;
+      padding-bottom: 72px;
+    }
+  }
+
+  h2 {
+    color: $c_white;
+    font-family: $instrument;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    font-style: normal;
+
+    @include media-down(md) {
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 48px;
+
+      span {}
+    }
+  }
+
+  p {
+    opacity: 0.8;
+    color: $c_white;
+    font-family: $poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: normal;
+  }
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  color: $c_white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 20px 60px;
+  border-radius: 40px;
+  border: 2px solid $c_white;
+  transition: 0.5s 0s;
+
+  &:hover {
+    transform: scale(0.98);
+    background: $c_white;
+    color: $c_black;
+  }
+
+  &:active {
+    transform: scale(0.95);
+    background: $c_white;
+    color: $c_black;
+  }
+
+  @include media-down(xs) {
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  @include media-down(md) {
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+    padding: 20px 20px;
+  }
+}
+
+.linkTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  color: #140a45;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 24px 60px;
+  border-radius: 40px;
+  background-color: $c_white;
+  border: 1px solid $c_white;
+  transition: 0.5s 0s;
+
+  &:hover {
+    transform: scale(0.98);
+    background: transparent;
+    color: $c_white;
+  }
+
+  &:active {
+    transform: scale(0.95);
+    background: transparent;
+    color: $c_white;
+  }
+
+  @include media-down(xs) {
+    white-space: nowrap;
+    padding: 28px 0px;
+    width: 100%;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+    padding: 20px 20px;
+  }
+}

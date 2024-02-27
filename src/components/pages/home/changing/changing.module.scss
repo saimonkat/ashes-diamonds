@@ -1,0 +1,166 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.changing {
+  overflow-x: clip;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 401px;
+
+  @include media-down(md) {
+    padding-top: 80px;
+    padding-bottom: 175px;
+  }
+}
+
+.fade {
+  position: absolute;
+  top: -5vh;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+
+  @media screen and (min-width: 2400px) {
+    height: 65vh;
+    top: -5vh;
+  }
+
+  @media screen and (max-width: 2200px) {
+    top: -80px;
+    right: unset;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1270px) {
+    top: -120px;
+    height: 120%;
+  }
+
+  @include media-down(md) {
+    height: 200%;
+    top: -700px;
+  }
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  top: 120px;
+  left: 0;
+  height: 782px;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+
+  @include media-down(md) {
+    gap: 64px;
+  }
+}
+
+.subtitle {
+  color: $c_blue-dark;
+  font-family: $instrument;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+
+  @include media-down(md) {
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 48px;
+    margin: 0;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+
+  @include media-down(md) {
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 281px;
+  }
+}
+
+.imgWrapper {
+  width: 177px;
+  height: 152px;
+  margin-top: 12px;
+
+  img {
+    width: 177px;
+    height: 100%;
+
+    @include media-down(md) {
+      height: 94px;
+      width: 158px;
+      object-fit: contain;
+    }
+  }
+
+  @include media-down(md) {
+    height: 94px;
+    width: 158px;
+    margin-top: 0;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h3 {
+    color: $c_blue-dark;
+    font-family: $instrument;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 109px;
+
+    @include media-down(md) {
+      margin: 29px 0 24px;
+      line-height: 40px;
+    }
+  }
+
+  p {
+    color: $c_blue-dark;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
+.lines {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  z-index: -2;
+  transform: translateX(-50%);
+  width: 500% !important;
+  opacity: 0.5;
+
+  @include media-down(md) {
+    display: none;
+  }
+}

@@ -1,0 +1,54 @@
+@import "../../../app/scss/utils/variables";
+@import "../../../app/scss/utils/mixins";
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  border-radius: 28px;
+  border: 2px solid $c_white;
+  color: $c_white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 16px 87px 16px 128px;
+  transition: 0.5s 0s;
+  height: 54px;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  @include media-down(md){
+    padding: 16px 78px 16px 90px;
+    gap: 10px;
+  }
+
+  @include media-down(xs) {
+    width: 100%;
+    padding: 16px 0px;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+
+.image {
+  position: absolute;
+  top: 50%;
+  left: 86px;
+  transform: translate(-0%, -50%);
+
+  @include media-down(md) {
+    position: unset;
+    display: flex;
+    transform: unset;
+  }
+}

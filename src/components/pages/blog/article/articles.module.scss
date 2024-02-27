@@ -1,0 +1,59 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @include media-down(md) {
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+
+  .mobile {
+    display: none;
+
+    @include media-down(md) {
+      display: block;
+    }
+  }
+}
+
+.skeletonListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.skeletonItemWrapper {
+  max-width: 380px;
+  width: calc(50% - 20px);
+
+  @include media-down(sm-large) {
+    width: 100%;
+  }
+}
+
+.skeletonItemInner {
+  width: 100%;
+}
+
+.paginationWrapper {
+  @include media-down(md) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+.imagePlaceholder {
+  width: 380px;
+
+  @include media-down(md) {
+    display: flex;
+    justify-content: center;
+    width: calc(50% - 30px);
+  }
+}

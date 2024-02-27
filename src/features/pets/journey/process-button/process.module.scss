@@ -1,0 +1,23 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.process {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $c_white;
+  font-family: $helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 28px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(109, 194, 208, 1) 0%,
+    rgba(12, 168, 193, 1) 100%
+  );
+  padding: 18px 53px;
+  width: fit-content;
+}

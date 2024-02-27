@@ -1,0 +1,31 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.banner {
+  padding-top: 120px;
+  padding-bottom: 75px;
+  @include media-down(md) {
+    padding: 30px 0;
+  }
+}
+
+.title {
+  text-align: center;
+
+  @include media-down(md) {
+    font-size: 80px;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.subtitle {
+  color: $c_blue;
+  font-family: $travel;
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  @include media-down(md) {
+    font-size: 32px;
+  }
+}

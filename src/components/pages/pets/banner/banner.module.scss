@@ -1,0 +1,214 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.home {
+  position: relative;
+  padding-top: 196px;
+  padding-bottom: 470px;
+  text-align: center;
+  // overflow: hidden;
+
+  @include media-down(md) {
+    // height: 100vh;
+    padding-top: 38px;
+  }
+}
+
+.background{
+  
+}
+
+.backgroundLines {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: -2;
+
+  @include media-down(md) {
+    height: 762px;
+    bottom: 77px;
+  }
+}
+
+.fadeLeft {
+  position: absolute;
+  right: -30px;
+  z-index: -5;
+  top: 0px;
+  filter: blur(37px);
+
+  @include media-down(md) {
+    top: 527px;
+    height: 330px;
+    width: 600px;
+  }
+}
+
+.fadeRight {
+  position: absolute;
+  left: 0;
+  top: 357px;
+
+  @include media-down(md) {
+    top: 496px;
+    width: 524px;
+    left: -138px;
+  }
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  span {
+    color: $c_blue;
+    font-family: $travel;
+    font-size: 80px;
+    font-weight: 400;
+    z-index: 150;
+
+    @include media-down(md) {
+      font-size: 48px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      margin-bottom: 6px;
+    }
+
+    @include media-down(sm) {
+      opacity: 1;
+      color: $c_blue;
+      font-family: $travel;
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+  }
+
+  h1 {
+    font-family: $instrument;
+    font-size: 154px;
+    font-weight: 400;
+    line-height: 180px;
+    padding-bottom: 8px;
+    z-index: 150;
+
+    @include media-down(md) {
+      color: $c_white;
+      font-size: 80px;
+      font-weight: 400;
+      line-height: 69px;
+      padding: 0;
+      margin-bottom: 32px;
+    }
+
+    @include media-down(xs) {
+      font-size: 60px;
+    }
+  }
+
+  p {
+    opacity: 0.8;
+    font-family: $poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 622px;
+    padding-bottom: 40px;
+    text-align: left;
+    z-index: 150;
+
+    @include media-down(md) {
+      width: 102%;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 40px;
+    }
+  }
+
+  @include media-down(md) {
+    align-items: center;
+  }
+}
+
+.shperePink {
+  position: absolute;
+  right: -77px;
+  z-index: -1;
+  top: 0px;
+
+  @include media-down(md) {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.shpereBlue {
+  position: absolute;
+  z-index: -2;
+  width: 500px;
+  height: 500px;
+  left: -160px;
+
+  @include media-down(md) {
+    width: 338px;
+    height: 338px;
+    top: 66px;
+    left: -249px;
+  }
+}
+
+.shpereBlueSecond {
+  position: absolute;
+  z-index: -5;
+  top: 771px;
+  width: 180px;
+  right: 100px;
+
+  @include media-down(md) {
+    width: 110px;
+    height: 110px;
+    top: 587px;
+    right: -26px;
+  }
+}
+
+.fadeRightSecond {
+  position: absolute;
+  right: 0;
+  top: 13px;
+
+  @include media-down(md) {
+    width: 100%;
+    height: 590px;
+    top: 134px;
+  }
+}
+
+.cavasVideo {
+  z-index: -99;
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -60%);
+
+  div {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  @include media-down(md) {
+    height: 500px;
+    top: 100%;
+    right: 50%;
+    transform: translate(50%, -10%);
+  }
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}

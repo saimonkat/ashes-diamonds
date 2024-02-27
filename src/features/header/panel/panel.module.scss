@@ -1,0 +1,267 @@
+@import "../../../app/scss/utils/variables";
+@import "../../../app/scss/utils/mixins";
+
+.panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: 0.24s;
+  background-color: #140a45;
+  padding: 83px 48px 0px 48px;
+
+  @include media-down(md) {
+    width: 100%;
+    padding: 24px;
+  }
+}
+
+.panelOpen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 1000;
+  transition: 0.7s;
+  transform: translateX(0);
+  background-color: #140a45;
+  padding: 83px 48px 0px 48px;
+  overflow: auto;
+
+  @include media-down(md) {
+    width: 100%;
+    padding: 24px;
+  }
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  filter: blur(5px);
+  background-color: rgba(20, 10, 69, 0.8);
+  backdrop-filter: blur(0px);
+  padding: 83px 48px 0px 48px;
+  transition: 0.24s;
+}
+
+.backgroundNotActive {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  filter: blur(5px);
+  padding: 83px 48px 0px 48px;
+  background-color: rgba(20, 10, 69, 0);
+  transition: 0.24s;
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 0px 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  a {
+    color: $c_white;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 28px;
+    text-transform: uppercase;
+    transition: 0.5s 0s;
+
+    &:hover {
+/*       transform: scale(0.98); */
+    }
+
+    &:active {
+/*       transform: scale(0.95); */
+    }
+  }
+}
+
+.content {
+  padding: 0px 24px;
+
+  @include media-down(md) {
+    width: 100%;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+  a {
+    color: $c_white;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 0.5s 0s;
+
+    &:hover {
+     /*  transform: scale(0.98); */
+    }
+
+    &:active {
+   /*    transform: scale(0.95); */
+    }
+  }
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: $c_white;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  transition: 0.5s 0s;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  @include media-down(xs) {
+    font-size: 18px;
+  }
+}
+
+.container {
+  display: flex;
+
+  @include media-down(md) {
+    flex-direction: column;
+  }
+}
+
+.closeWrapper {
+  display: flex;
+  width: 184px;
+  height: 100%;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 184px;
+    height: 100%;
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    @include media-down(md) {
+      display: none;
+    }
+  }
+
+  @include media-down(md) {
+    display: none;
+    width: unset;
+    height: unset;
+  }
+}
+
+.colseInner {
+  position: absolute;
+  left: 130px;
+  top: 85px;
+
+  @include media-down(md) {
+    position: unset;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+.close {
+  left: 130px;
+  top: 85px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+
+  span {
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    width: 20px;
+    top: 6px;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    &:nth-child(1) {
+      transform: rotate(45deg);
+    }
+
+    &:nth-child(2) {
+      transform: rotate(-45deg);
+    }
+  }
+
+  @include media-down(md) {
+    position: relative;
+    left: unset;
+    top: unset;
+  }
+}
+
+.contentWrapper {
+  @include media-down(md) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.head {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+  @include media-down(md) {
+    display: flex;
+  }
+}
+
+.logo {
+  width: 87px;
+  height: 40px;
+
+  img {
+    height: 40px;
+    width: 87px;
+  }
+}
+
+.mobilePhone {
+  margin-top: 10px;
+}

@@ -1,0 +1,93 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.history {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  @include media-down(md) {
+    flex-direction: column-reverse;
+
+    &:nth-child(2) {
+      flex-direction: column;
+      margin-top: -20px;
+    }
+  }
+}
+
+
+.column {
+  flex: 0 1 50%;
+}
+
+.firstColumn {
+  flex: 0 1 45%;
+}
+
+.label {
+  margin-bottom: 65px;
+  font-size: 72px;
+  font-family: $instrument;
+  line-height: 72px;
+
+  @include media-down(md) {
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+}
+
+.description {
+  opacity: 0.8;
+  font-family: $poppins;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+
+  @include media-down(md) {
+    text-align: center;
+  }
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.historyImage {
+  margin-top: -50px;
+
+  img{
+    object-fit: contain;
+  }
+}
+
+.diamondsImage {
+  max-height: 380px;
+  border-radius: 24px;
+}
+
+.fadeOrange {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  @include media-down(md) {
+    width: 120%;
+
+    bottom: 50vw;
+  }
+}

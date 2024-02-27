@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1357px" viewBox="0 0 1440 1357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle 🌈cubic-bezier(0.62, 0.17, 0.54, 1);lrgb;10</title>
+    <defs>
+        <linearGradient x1="58.0859388%" y1="14.6163956%" x2="47.0874936%" y2="80.5050174%" id="linearGradient-1">
+            <stop stop-color="#81FCFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#83FBFF" stop-opacity="0.059635664" offset="4.1589835%"></stop>
+            <stop stop-color="#86F8FD" stop-opacity="0.203065916" offset="8.69679918%"></stop>
+            <stop stop-color="#8FF3FB" stop-opacity="0.521700346" offset="19.7417573%"></stop>
+            <stop stop-color="#CAF5FF" stop-opacity="0.787631802" offset="30.8153273%"></stop>
+            <stop stop-color="#F4FAFF" stop-opacity="0.927800105" offset="39.0426102%"></stop>
+            <stop stop-color="#FAFDFF" offset="45.6888479%"></stop>
+            <stop stop-color="#FFFCFE" offset="65.2787419%"></stop>
+            <stop stop-color="#FFF9FD" stop-opacity="0.957804999" offset="67.1868634%"></stop>
+            <stop stop-color="#FFF3FB" stop-opacity="0.876074731" offset="69.9587343%"></stop>
+            <stop stop-color="#FFCDEE" stop-opacity="0.682879255" offset="78.1824629%"></stop>
+            <stop stop-color="#FFA1E0" stop-opacity="0.366622391" offset="89.0018678%"></stop>
+            <stop stop-color="#FF9FDE" stop-opacity="0.209875574" offset="94.606547%"></stop>
+            <stop stop-color="#FEAEE2" stop-opacity="0.0828900104" offset="97.1438728%"></stop>
+            <stop stop-color="#FDB4E4" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(0, -2372)" fill="url(#linearGradient-1)">
+            <g id="benefits_bg" transform="translate(-2992, 2269.5)">
+                <rect id="Rectangle-🌈cubic-bezier(0.62,-0.17,-0.54,-1);lrgb;10" x="2991.5" y="103" width="1440" height="1356"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

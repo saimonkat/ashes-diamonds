@@ -1,0 +1,92 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.content {
+  padding-top: 80px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @include media-down(sm) {
+  gap: 32px;
+  }
+  p {
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 30px;
+    opacity: 1;
+  }
+}
+
+
+.title {
+  margin-bottom: 40px;
+
+  @include media-down(md) {
+    font-size: 80px;
+    text-align: center;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 72px;
+
+  @include media-down(md) {
+    margin-bottom: 45px;
+  }
+
+  @include media-down(sm) {
+    flex-direction: column;
+  }
+}
+
+.col {
+  flex: 0 1 48%;
+}
+
+.link {
+  font-weight: 700;
+  cursor: pointer;
+  color: $c_white;
+
+  .phoneIcon {
+    display: inline-flex;
+    margin: 5px 5px 0 0;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.fadeLeft {
+  position: absolute;
+  right: 0px;
+  bottom: -40%;
+  z-index: -5;
+  filter: blur(37px);
+  width: 60%;
+
+  @include media-down(md) {
+    top: 70%;
+    width: 100%;
+  }
+}
+
+.fadeRightSecond {
+  position: absolute;
+  width: 20%;
+
+  right: 0;
+  bottom: -45%;
+
+  @include media-down(md) {
+    width: 50%;
+    top: 75%;
+  }
+}

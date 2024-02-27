@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/how-it-works/6</title>
+    <g id="icon/how-it-works/6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(44, 44)" stroke-width="2">
+            <path d="M43.6597469,28.341019 L39.347594,27 L1.86045513,62.4649389 C-0.509858145,64.5359986 -0.632838708,68.180719 1.59256116,70.4068732 C3.81874435,72.6330273 7.46429556,72.5100484 9.53459892,70.1389827 L45,32.6531156 L43.6597469,28.341019 Z" id="Stroke-1" stroke="#FEFEFE"></path>
+            <polygon id="Stroke-3" stroke="#FEFEFE" points="64.4760514 7.52387181 60.3893697 19.5748855 68 29.7737083 55.2761124 29.6104644 47.9284048 40 44.1509516 27.8485284 32 24.0711576 42.3889773 16.724395 42.2265146 4 52.4255597 11.6104644"></polygon>
+            <polyline id="Stroke-5" stroke="#00DBFF" points="72 9 72 0 63 0"></polyline>
+            <polyline id="Stroke-7" stroke="#00DBFF" points="63 40 72 40 72 31"></polyline>
+            <polyline id="Stroke-9" stroke="#00DBFF" points="41 0 32 0 32 9"></polyline>
+        </g>
+    </g>
+</svg>

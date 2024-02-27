@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/how-it-works/4</title>
+    <g id="icon/how-it-works/4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-28" transform="translate(35, 47)" stroke-width="2">
+            <g id="Group-27">
+                <line x1="61.7745299" y1="8.04547206" x2="52.4755225" y2="19.6175275" id="Stroke-1" stroke="#00DBFF"></line>
+                <polyline id="Stroke-2" stroke="#FEFEFE" points="71.5622412 28.0444184 78.7128473 19.6174728 65.5941304 3.29269133 64.3734548 4.81169514"></polyline>
+                <polyline id="Stroke-3" stroke="#FEFEFE" points="26.2378703 19.6174728 13.1191533 3.29269133 0.000436345152 19.6174728 39.3565873 65.999836 66.352171 34.1849325"></polyline>
+                <polyline id="Stroke-5" stroke="#FEFEFE" points="41.0772053 5.43410955 39.3563691 3.29252735 26.2376521 19.6173089"></polyline>
+                <line x1="52.4753588" y1="19.6174728" x2="43.8570426" y2="8.89320479" id="Stroke-6" stroke="#00DBFF"></line>
+                <line x1="62.6757994" y1="2.692582" x2="65.5944031" y2="2.692582" id="Stroke-7" stroke="#FEFEFE"></line>
+                <line x1="13.1190442" y1="2.692582" x2="43.3130379" y2="2.692582" id="Stroke-8" stroke="#FEFEFE"></line>
+                <line x1="37.6085886" y1="19.6174728" x2="0" y2="19.6174728" id="Stroke-9" stroke="#FEFEFE"></line>
+                <line x1="78.713011" y1="19.6174728" x2="69" y2="19.62" id="Stroke-11" stroke="#FEFEFE"></line>
+                <line x1="63" y1="19.62" x2="42.3556679" y2="19.617603" id="Stroke-11-Copy" stroke="#00DBFF"></line>
+                <line x1="26.2378703" y1="19.6174728" x2="39.3565873" y2="65.999836" id="Stroke-12" stroke="#FEFEFE"></line>
+                <line x1="49.1732078" y1="31.2924847" x2="39.3565328" y2="66" id="Stroke-14" stroke="#FEFEFE"></line>
+                <line x1="52.4753588" y1="19.6174728" x2="50.5886622" y2="26.2873215" id="Stroke-17" stroke="#00DBFF"></line>
+                <path d="M63.9397823,4.37774871 C57.5996872,-1.66929668 47.5686576,-1.42113989 41.5340041,4.93254859 C35.4998961,11.2856905 35.747522,21.338227 42.0876171,27.385819 C48.4271667,33.4328644 58.4587417,33.1847076 64.4928497,26.8315657 C70.5275032,20.4778773 70.2798773,10.4247941 63.9397823,4.37774871 Z" id="Stroke-18" stroke="#00DBFF"></path>
+                <polygon id="Stroke-22" stroke="#00DBFF" points="66.1542884 25.0823883 62.8320655 28.5800873 65.5346783 31.1584035 68.8569012 27.660158"></polygon>
+                <path d="M69.8271147,26.638397 L64.5642467,32.1803832 L79.2619877,48.6587595 C81.4568038,51.0550577 85.2164627,51.088947 87.4543679,48.7330972 C89.6917277,46.3767009 89.4724643,42.6149937 86.9760246,40.5368172 L69.8271147,26.638397 Z" id="Stroke-24" stroke="#00DBFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

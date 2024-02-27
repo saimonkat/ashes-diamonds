@@ -1,0 +1,22 @@
+@import "../utils/mixins";
+$font-directory: "../../../shared/fonts";
+
+//Creattion Demo
+@include font($font_directory, "CreattionDemo", "CreattionDemo", 400, "normal");
+
+//InstrumentSerif
+@include font($font_directory, "InstrumentSerif", "InstrumentSerif-Regular", 400, "normal");
+@include font($font_directory, "InstrumentSerif", "InstrumentSerif-Italic", 400, "italic");
+
+//Poppins
+@include font($font_directory, "Poppins", "Poppins-Light", 300, "normal");
+@include font($font_directory, "Poppins", "Poppins-Regular", 400, "normal");
+@include font($font_directory, "Poppins", "Poppins-Medium", 500, "normal");
+@include font($font_directory, "Poppins", "Poppins-SemiBold", 600, "normal");
+@include font($font_directory, "Poppins", "Poppins-Bold", 700, "normal");
+
+//Travel
+@include font($font_directory, "Travel", "Travel-November", 400, "normal");
+
+//Helvetica
+@include font($font_directory, "Helvetica", "helvetica_bold", 700, "normal");

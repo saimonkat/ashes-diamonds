@@ -1,0 +1,37 @@
+/* Media queries */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 374px,
+  sm-large: 576px,
+  md: 768px,
+  lg: 1005px,
+  xl: 1230px,
+  xxl: 1440px,
+);
+
+/* Fonts */
+$poppins: Poppins, -apple-system, system-ui, sans-serif;
+$instrument: InstrumentSerif, -apple-system, system-ui, sans-serif;
+$creattion: CreattionDemo, -apple-system, system-ui, sans-serif;
+$travel: Travel, -apple-system, system-ui, sans-serif;
+$helvetica: Helvetica, -apple-system, system-ui, sans-serif;
+
+/* Colors */
+$c_black: #000000;
+$c_white: #ffffff;
+$c_blue: #00dcff;
+$c_blue-dark: #0a0c45;
+
+/*Font Sizes*/
+$size-60: 60px;
+$size-40: 40px;
+$size-24: 24px;
+$size-20: 20px;
+$size-18: 18px;
+$size-14: 14px;
+
+/*Font Weight*/
+$weight-400: 400;
+$weight-500: 500;
+$weight-600: 600;
+$weight-700: 700;

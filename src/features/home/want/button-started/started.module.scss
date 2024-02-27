@@ -1,0 +1,37 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  color: $c_blue-dark;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 28px 84px;
+  border-radius: 40px;
+  background-color: $c_white;
+  text-align: center;
+  border: 2px solid $c_white;
+  transition: 0.5s 0s;
+
+  &:hover {
+    color: $c_white;
+    background-color: transparent;
+    transform: scale(0.98);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  @include media-down(md){
+    display: block;
+    width: 100%;
+    padding: 28px 0;
+    white-space: nowrap;
+  }
+}

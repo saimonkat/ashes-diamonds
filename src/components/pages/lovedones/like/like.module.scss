@@ -1,0 +1,363 @@
+@import "../../../../app/scss/utils/variables";
+@import "../../../../app/scss/utils/mixins";
+
+.like {
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 212px;
+
+  @include media-down(md) {
+    padding-top: 76px;
+  }
+}
+
+.background {
+  position: absolute;
+  transform: rotate(180deg) translate(50%, 0%);
+  width: 3500px;
+  top: 1200px;
+  left: 50%;
+}
+
+.lovedones {
+  position: absolute;
+  transform: translate(-50%, 0%) scale(0.5);
+  top: -390px;
+  z-index: 200;
+  left: 55%;
+
+  @include media-down(md) {
+    right: 0;
+    left: unset;
+    transform: unset;
+    right: -41px;
+    width: 130px;
+    top: -79px;
+  }
+}
+
+.fadeBlue {
+  position: absolute;
+  top: 930px;
+  width: 1235px;
+  height: 500px;
+  right: 0;
+}
+
+.fadeOrange {
+  height: 1100px;
+  width: 1000px;
+  position: absolute;
+  right: 0;
+  top: 330px;
+}
+
+.sphere {
+  position: absolute;
+  z-index: 1;
+  width: 313px;
+  height: 313px;
+  left: -231px;
+  top: 843px;
+
+  @include media-down(md) {
+    display: none;
+  }
+}
+
+.fade {
+  position: absolute;
+  top: 0;
+  height: 820px;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(33, 36, 94, 1) 0%,
+    rgba(33, 36, 94, 0) 100%
+  );
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 777px;
+  z-index: 3;
+  position: relative;
+
+  &:nth-child(1) {
+  }
+  &:nth-child(2) {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 948px;
+    margin-top: 207px;
+
+    @include media-down(md) {
+      margin-top: 47px;
+    }
+  }
+  h2 {
+    margin: 0;
+  }
+}
+
+.subtext {
+  color: $c_blue;
+  font-family: $instrument;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  padding-bottom: 56px;
+  font-style: italic;
+
+  @include media-down(md) {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 32px;
+  }
+}
+
+.text {
+  opacity: 0.8;
+  color: $c_white;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 33px;
+  padding-bottom: 64px;
+  max-width: 519px;
+
+  @include media-down(md) {
+    padding: 0;
+    margin-bottom: 48px;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  padding-bottom: 80px;
+  
+  a {
+    opacity: 0.7;
+    color: $c_white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    &:nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 68px;
+      color: $c_black !important;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      opacity: 1 !important;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 28px;
+      background-color: $c_white !important;
+      transition: 0.5s;
+      
+      &:hover {
+        transform: scale(0.98);
+        opacity: 1;
+      }
+    
+      &:active {
+        transform: scale(0.95);
+      }
+
+      @include media-down(sm){
+        width: 100%;
+      }
+    }
+  }
+
+  @include media-down(md) {
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 56px;
+  }
+}
+
+.desc {
+  display: flex;
+  gap: 72px;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    p {
+      color: $c_white;
+      font-family: $instrument;
+      font-size: 40px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      text-align: left;
+      line-height: 52px;
+      margin: 0;
+    }
+
+    span {
+      color: $c_blue;
+      font-family: $instrument;
+      font-size: 40px;
+      font-weight: 400;
+      font-style: italic;
+      letter-spacing: 0px;
+      line-height: 52px;
+    }
+
+    @include media-down(md) {
+      align-items: center;
+    }
+  }
+
+  @include media-down(md) {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+}
+
+.comment {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 24px;
+  opacity: 0.996402;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  padding: 42px 100px 32px 0;
+  gap: 53px;
+  max-width: 563px;
+
+  @include media-down(md) {
+    padding: 98px 25px 25px 25px;
+    gap: 28px;
+  }
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+
+  p {
+    color: $c_black;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  img {
+    @include media-down(md) {
+      margin-left: auto;
+    }
+  }
+
+  @include media-down(md) {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 41px;
+  }
+}
+
+.bottom {
+  p {
+    position: relative;
+    opacity: 1;
+    color: #0ca8c1;
+    font-family: $travel;
+    font-size: 52px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 43.812381px;
+    transform: rotate(-9deg);
+    padding: 0px 0px 20px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 154px;
+      background-color: #0ca8c1;
+      height: 1px;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, -18px);
+
+      @include media-down(md) {
+        width: 100px;
+      }
+    }
+
+    @include media-down(md) {
+      font-size: 40px;
+      line-height: 30.668667px;
+      margin: 0;
+    }
+
+    @include media-down(sm) {
+      font-size: 38px;
+    }
+  }
+}
+
+.imgWrapper {
+  position: absolute;
+  z-index: 1;
+  top: -128px;
+  left: -101px;
+
+  img {
+    @include media-down(md) {
+      object-fit: contain;
+    }
+  }
+
+  @include media-down(md) {
+    width: 450px;
+    top: -85px;
+    left: -140px;
+  }
+
+  @media (max-width: 360px) {
+    width: 400px;
+  }
+}
+
+.photo {
+}
+
+.clip {
+  position: absolute;
+  z-index: 2;
+  top: -43px;
+  left: 37px;
+  width: 37px;
+  height: 133px;
+
+  @include media-down(md) {
+    height: 98px;
+    width: 27px;
+    top: -31px;
+    left: 5px;
+  }
+}
